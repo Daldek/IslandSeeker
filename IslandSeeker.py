@@ -1,5 +1,6 @@
 input_file = open('Matrix.txt', 'r')
-analyzed_file = input_file.readlines() # [6:]  creates a new list in which each verse is an element. Skips 6 header lines (In Esri grid data, the first six lines indicate the reference of the grid)
+analyzed_file = input_file.readlines() # [6:]  creates a new list in which each verse is an element.
+# Skips 6 header lines (In Esri grid data, the first six lines indicate the reference of the grid)
 input_file.close()
 
 elevation_matrix = []
