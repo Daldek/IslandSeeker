@@ -1,4 +1,4 @@
-input_file = open('E:\OneDrive\Dokumenty\Inne\pyton\IslandSeeker\IslandSeeker\Matrix2.txt', 'r')
+input_file = open('Matrix.txt', 'r')
 analyzed_file = input_file.readlines()[1:]  # creates a new list in which each verse is an element
 input_file.close()
 
